@@ -1,0 +1,15 @@
+.image-container {
+    position: relative;
+    width: 1000px; /* Match your image width */
+    height: 500px; /* Match your image height */
+}
+
+.circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+}
