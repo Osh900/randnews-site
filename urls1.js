@@ -102,7 +102,6 @@ export const urls1 = [
     "https://cyclingweekly.com",
     "https://factcheck.org",
     "https://niemanlab.org",
-    "https://feedly.com/i/collection/content/user/ad0fef52-4a1e-4c7a-ab39-6970578d9375/category/87a103e7-6554-4523-983a-332d66ce6e12",
     "https://time.com",
     "https://techcrunch.com/",
     "https://nowfashion.com/",
