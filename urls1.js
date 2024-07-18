@@ -1,4 +1,4 @@
-export const urls = [
+export const urls1 = [
     "https://abcnews.go.com",
     "https://www.bbc.com",
     "https://cnbc.com",
