@@ -1,0 +1,48 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d7d6d6;
+    margin: 0;
+}
+button {
+    padding: 100px 110px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.content {
+    margin-bottom: 20px;
+}
+
+.link {
+    position: fixed;
+    bottom: 0px; /* Adjust the distance from the bottom */
+    right: 0px;  /* Adjust the distance from the right */
+    background-color: white; /* Optional: to make it stand out */
+    padding: 10px; /* Optional: for some padding */
+    border-radius: 5px; /* Optional: for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: for some shadow */
+}
+
+.link ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.link ul li {
+    margin-bottom: 10px;
+}
+
+.link ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.link ul li a:hover {
+    text-decoration: underline;
+}

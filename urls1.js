@@ -32,7 +32,6 @@ export const urls1 = [
     "https://thehill.com",
     "https://interfax.com",
     "https://technologyreview.com",
-    "https://nytimes.com/wire",
     "https://pitchfork.com",
     "https://reuters.com",
     "https://www.skysports.com/f1",
@@ -104,5 +103,10 @@ export const urls1 = [
     "https://factcheck.org",
     "https://niemanlab.org",
     "https://feedly.com/i/collection/content/user/ad0fef52-4a1e-4c7a-ab39-6970578d9375/category/87a103e7-6554-4523-983a-332d66ce6e12",
-    "https://time.com"
+    "https://time.com",
+    "https://techcrunch.com/",
+    "https://nowfashion.com/",
+    "https://xkcd.com/",
+    "https://www.pinkbike.com/",
+    "https://www.artnews.com"
 ];
