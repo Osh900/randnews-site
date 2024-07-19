@@ -24,7 +24,7 @@ button {
     background-color: white; /* Optional: to make it stand out */
     padding: 10px; /* Optional: for some padding */
     border-radius: 5px; /* Optional: for rounded corners */
-    box-shadow: 0 4px 8px rgba(196, 178, 178, 0.1); /* Optional: for some shadow */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Optional: for some shadow */
 }
 
 .link ul {
@@ -48,5 +48,12 @@ button {
 }
 
 
-
+header {
+    position: absolute;
+    top: 0;
+    left: 32%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
 
