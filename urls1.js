@@ -139,7 +139,8 @@ export const polling_factcheck = [
     "https://politifact.com",
     "https://projects.fivethirtyeight.com/polls/",
     "https://www.electoral-vote.com/",
-    "https://factcheck.org"
+    "https://factcheck.org",
+    "https://www.govtrack.us/congress/bills/"
 ]
 export const long = [
     "https://theatlantic.com",
