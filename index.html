@@ -27,16 +27,53 @@
             <button onclick="window.open_sports()">Sports</button>
             <button onclick="window.open_fun()">Fun / Other</button>
             <button onclick="window.open_pop()">Pop</button>
-            <button onclick="window.open_polling_factcheck()">polling / factcheck</button>
+            <button onclick="window.open_polling_factcheck()">Polling / Factcheck</button>
             <button onclick="window.open_long()">Long Form</button>
-            <button onclick="window.open_nonprofit()">nonprofit / thinktank</button>
+            <button onclick="window.open_nonprofit()">Nonprofit / Thinktank</button>
+        </div>
 
+        <div class="selector">
+            <h2>Select Categories</h2>
+            <form id="category-form">
+                <button type="button" onclick="openSelectedCategories()">Open Random URL</button><br>
+                <input type="checkbox" id="national_news" name="category" value="national_news">
+                <label for="national_news">National</label><br>
+                <input type="checkbox" id="science_and_tech" name="category" value="science_and_tech">
+                <label for="science_and_tech">Science and Technology</label><br>
+                <input type="checkbox" id="forign_news" name="category" value="forign_news">
+                <label for="forign_news">Foreign</label><br>
+                <input type="checkbox" id="extra" name="category" value="extra">
+                <label for="extra">Extra</label><br>
+                <input type="checkbox" id="city" name="category" value="city">
+                <label for="city">City</label><br>
+                <input type="checkbox" id="cable" name="category" value="cable">
+                <label for="cable">Cable</label><br>
+                <input type="checkbox" id="finance" name="category" value="finance">
+                <label for="finance">Finance</label><br>
+                <input type="checkbox" id="sports" name="category" value="sports">
+                <label for="sports">Sports</label><br>
+                <input type="checkbox" id="fun" name="category" value="fun">
+                <label for="fun">Fun / Other</label><br>
+                <input type="checkbox" id="pop" name="category" value="pop">
+                <label for="pop">Pop</label><br>
+                <input type="checkbox" id="polling_factcheck" name="category" value="polling_factcheck">
+                <label for="polling_factcheck">Polling / Factcheck</label><br>
+                <input type="checkbox" id="long" name="category" value="long">
+                <label for="long">Long Form</label><br>
+                <input type="checkbox" id="nonprofit" name="category" value="nonprofit">
+                <label for="nonprofit">Nonprofit / Thinktank</label><br>
+            </form>
         </div>
     </div>
 
     <div class="link">
         <ul>
             <li><a href="about.html">About Me</a></li>
+        </ul>
+    </div>
+    <div class="link">
+        <ul>
+            <li><a href="sorces.html">sorces</a></li>
         </ul>
     </div>
 
