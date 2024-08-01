@@ -27,6 +27,7 @@ export const national_news = [
 ]
 export const forign_news = [
     "https://kyodonews.net",
+    "https://www.rferl.org",
     "https://www.bbc.com",
     "https://haaretz.com",
     "https://theguardian.com",
