@@ -91,7 +91,8 @@ export const finance = [
     "https://ft.com",
     "https://www.marketwatch.com",
     "https://barrons.com",
-    "https://fred.stlouisfed.org"
+    "https://fred.stlouisfed.org",
+    "https://www.nasdaq.com/market-activity/earnings"
 ]
 export const sports = [
     "https://espn.com",
@@ -122,7 +123,8 @@ export const pop = [
     "https://spin.com",
     "https://boxofficemojo.com",
     "https://nowfashion.com/",
-    "https://www.artnews.com"
+    "https://www.artnews.com",
+    "https://www.complex.com/ca"
 ]
 export const nonprofit = [
     "https://rand.org",
