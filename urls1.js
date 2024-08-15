@@ -91,7 +91,7 @@ export const finance = [
     "https://ft.com",
     "https://www.marketwatch.com",
     "https://barrons.com",
-    "https://fred.stlouisfed.org",
+    "https://fredblog.stlouisfed.org/",
     "https://www.nasdaq.com/market-activity/earnings"
 ]
 export const sports = [
