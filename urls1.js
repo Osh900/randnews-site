@@ -42,7 +42,7 @@ export const forign_news = [
     "https://themoscowtimes.com",
     "https://yonhapnews.co.kr",
     "https://dw.com",
-    "https://nhk.or.jp/nhkworld",
+    "https://www.nhk.or.jp/nhkworld/",
     "https://arstechnica.com",
     "https://scmp.com",
     "https://france24.com",
