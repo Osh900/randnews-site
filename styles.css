@@ -58,3 +58,86 @@ button {
 .link ul li a:hover {
     text-decoration: underline;
 }
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 0.5rem 0;
+}
+
+.main-nav button {
+    background-color: #666;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    margin: 0 5px;
+}
+
+.main-nav button:hover {
+    background-color: #888;
+}
+
+.categories {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.categories h2 {
+    margin-top: 0;
+}
+
+.categories label {
+    margin-right: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}

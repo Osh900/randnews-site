@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rand News</title>
+    <link rel="icon" href="images/logo1.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>RANDOM.NEWS() by Ari O</h1>
+    </header>
+
+    <nav class="main-nav">
+        <button onclick="window.openRandomURLInNewTab()">All</button>
+        <button onclick="window.open_national_news()">National</button>
+        <button onclick="window.open_science_and_tech()">Science and Technology</button>
+        <button onclick="window.open_forign_news()">Foreign</button>
+        <button onclick="window.open_extra()">Extra</button>
+        <button onclick="window.open_city()">City</button>
+        <button onclick="window.open_cable()">Cable</button>
+        <button onclick="window.open_finance()">Finance</button>
+        <button onclick="window.open_sports()">Sports</button>
+        <button onclick="window.open_fun()">Fun / Other</button>
+        <button onclick="window.open_pop()">Pop</button>
+        <button onclick="window.open_polling_factcheck()">Polling / Factcheck</button>
+        <button onclick="window.open_long()">Long Form</button>
+        <button onclick="window.open_nonprofit()">Nonprofit / Thinktank</button>
+    </nav>
+
+    <section class="categories">
+        <h2>Select Categories</h2>
+        <form id="category-form">
+            <button type="button" onclick="window.openSelectedCategories()">Open Random URL</button><br>
+            <input type="checkbox" id="national_news" name="category" value="national_news">
+            <label for="national_news">National</label><br>
+            <input type="checkbox" id="science_and_tech" name="category" value="science_and_tech">
+            <label for="science_and_tech">Science and Technology</label><br>
+            <input type="checkbox" id="forign_news" name="category" value="forign_news">
+            <label for="forign_news">Foreign</label><br>
+            <input type="checkbox" id="extra" name="category" value="extra">
+            <label for="extra">Extra</label><br>
+            <input type="checkbox" id="city" name="category" value="city">
+            <label for="city">City</label><br>
+            <input type="checkbox" id="cable" name="category" value="cable">
+            <label for="cable">Cable</label><br>
+            <input type="checkbox" id="finance" name="category" value="finance">
+            <label for="finance">Finance</label><br>
+            <input type="checkbox" id="sports" name="category" value="sports">
+            <label for="sports">Sports</label><br>
+            <input type="checkbox" id="fun" name="category" value="fun">
+            <label for="fun">Fun / Other</label><br>
+            <input type="checkbox" id="pop" name="category" value="pop">
+            <label for="pop">Pop</label><br>
+            <input type="checkbox" id="polling_factcheck" name="category" value="polling_factcheck">
+            <label for="polling_factcheck">Polling / Factcheck</label><br>
+            <input type="checkbox" id="long" name="category" value="long">
+            <label for="long">Long Form</label><br>
+            <input type="checkbox" id="nonprofit" name="category" value="nonprofit">
+            <label for="nonprofit">Nonprofit / Thinktank</label><br>
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="sources.html">Sources</a></li>
+        </ul>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
