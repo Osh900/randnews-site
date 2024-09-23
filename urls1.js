@@ -33,9 +33,7 @@ export const forign_news = [
     "https://theguardian.com",
     "https://middleeasteye.net",
     "https://jpost.com",
-    "https://tass.com",
     "https://theglobeandmail.com",
-    "https://interfax.com",
     "https://dailysabah.com",
     "https://huffpost.com",
     "https://independent.co.uk",
@@ -135,6 +133,7 @@ export const nonprofit = [
     "https://nsarchive.gwu.edu",
     "https://cfr.org",
     "https://cjr.org",
+    "https://www.cato.org",
     "https://niemanlab.org"
     
 ]
