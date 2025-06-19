@@ -78,6 +78,7 @@ export const cable = [
     "https://cnn.com"
 ]
 export const finance = [
+    "https://www.sec.gov/newsroom",
     "https://coindesk.com",
     "https://www.investopedia.com",
     "https://www.investing.com",
@@ -133,6 +134,7 @@ export const nonprofit = [
     "https://nsarchive.gwu.edu",
     "https://cfr.org",
     "https://cjr.org",
+    "https://www.cato.org",
     "https://www.cato.org",
     "https://niemanlab.org"
     
